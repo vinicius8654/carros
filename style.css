@@ -1,0 +1,148 @@
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #ff0000;
+    --yellow: #ffff00;
+    --otherblue: blue;
+    --indigo: #000020;
+    --jornal: #E1E1DD;
+    }
+.mobi{
+    position:relative;
+    width: 100%;
+    top:28%;
+}
+.mobis{
+    position: relative;
+    width: 125%;
+    top: 15%;
+    left: 115%;
+}
+.tit{
+    position: relative;
+    width:272% ;
+    height: 25;
+    left: -1%;
+    top: 0%;
+}
+.monte{
+    position: absolute;
+    top:286px;
+    border-color: transparent;
+    width: 34%;
+    height: 8%;
+    font-size:x-large;
+    letter-spacing: 1px;
+    font-family:fantasy;
+    left: 58%;
+    color: white;
+    background-color:#230546;
+    cursor:pointer;
+
+}
+body{
+    background-color: var(--jornal);
+}
+.bannera{
+    position: absolute;
+    top: 117%;
+    width: 40%;
+    left: 5%;
+}
+.bannero{
+    position: absolute;
+    top: 117%;
+    width: 40%;
+    left: 50%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    position:fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #230546; /* Cor vermelha da Fiat */
+    color: #fff;
+}
+
+.logo img {
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse, lembrando aceleração */
+    color: #ffcc00; /* Cor que remete a faróis de carro */
+}
+
+.button-container {
+    margin: 20px 0;
+    position:absolute;
+    top: 210%;
+    left: 0%;
+}
+
+.car-button {
+    font-size: 17px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px 75px;
+    margin: 20px;
+    background-color: #230546;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.car-button:hover {
+    background-color: #575757;
+}
+
+.car-display {
+    margin-top: 20px;
+}
+
+.car-image {
+    position:relative;
+    
+    top: 240%;
+    left: 29%;
+    max-width: 40%;
+    height: auto;
+    display: none;
+}
