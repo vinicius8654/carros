@@ -47,26 +47,24 @@ body{
 .bannera{
     position: absolute;
     top: 117%;
-    width: 40%;
-    left: 5%;
+    width: 45%;
+    left: 2%;
 }
 .bannero{
     position: absolute;
     top: 117%;
-    width: 40%;
-    left: 50%;
+    width: 45%;
+    left: 52%;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: var(--jornal);
 }
-
 /* Cabeçalho */
 header {
     z-index: 1000;
@@ -80,48 +78,41 @@ header {
     background-color: #230546; /* Cor vermelha da Fiat */
     color: #fff;
 }
-
 .logo img {
     width: 80px;
 }
-
 nav {
     display: flex;
     align-items: center;
 }
-
 .nav-links {
     list-style: none;
     display: flex;
 }
-
 .nav-links li {
     margin-left: 20px;
 }
-
 .nav-links a {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
     transition: transform 0.3s ease;
 }
-
 .nav-links a:hover {
     transform: scale(1.1); /* Efeito de zoom ao passar o mouse, lembrando aceleração */
     color: #ffcc00; /* Cor que remete a faróis de carro */
 }
-
+/*carro*/
 .button-container {
     margin: 10px 0;
     position:absolute;
     top: 205%;
     left: 3%;
 }
-
 .car-button {
     font-size: 17px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 10px 60px;
+    padding: 15px 65px;
     margin: 10px;
     background-color: #230546;
     color: white;
@@ -129,15 +120,12 @@ nav {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .car-button:hover {
     background-color: #575757;
 }
-
 .car-display {
     margin-top: 20px;
 }
-
 .car-image {
     position:absolute;
     z-index: 1;
@@ -147,19 +135,42 @@ nav {
     height: auto;
     display: none;
 }
-.nossos{
-    position: absolute;
-    top: 195%;
-    left: 38%;
-    letter-spacing: 2px;
-    color: #230546;
-    z-index: 1;
-}
+/*modelos*/
 .abarth{
     position:absolute;
     z-index: 1;
     top: 320%;
+    left:2%;
+width: 95%;
+height: 85%;
+}
+.toron{
+    position: absolute;
+    top: 415%;
+    width: 45%;
+    left: 2%;
+}
+.conect{
+    position: absolute;
+    top: 415%;
+    width: 45%;
+    left: 52%;
+}
+.instagram{
+    position: absolute;
+    width: 25%;
+    top:515% ;
+    left: 65%;
+}
+.linkedin{
+    position: absolute;
+    width: 30%;
+    top:495% ;
+    left: 63%;
+}
+.logos{
+    position: absolute;
+    width: 30%;
+    top:510% ;
     left: 10%;
-width: 80%;
-height: 70%;
 }
