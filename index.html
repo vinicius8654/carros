@@ -28,18 +28,21 @@ href="https://mobi.fiat.com.br/monte.html?gad_source=1&gclid=CjwKCAjwreW2BhBhEiw
     <button class="monte">MONTE SEU FIAT MOBI ></button>   
 </a>
 <body></body>
-    <header>
-        <div class="logo">
-            <img src="imagens/logo.png" alt="Fiat Logo">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="https://500e.fiat.com.br/monte.html?gad_source=1&gclid=Cj0KCQjw0Oq2BhCCARIsAA5hubXYPQbWIW5oAohLF8O8d-KfWI7_Gn379TlZ2jYqwVkTrjPx7EOv0DcaAmG7EALw_wcB&gclsrc=aw.ds#versao">FIAT 500E</a></li>
-                <li><a href="https://argo.fiat.com.br/">FIAT ARGO </a></li>
-                <li><a href="https://toro.fiat.com.br/">FIAT TORO</a></li>
-                <li><a href="https://pulse.fiat.com.br/">FIAT PULSE</a></li>
-            </ul>
-    </header>
+
+<aside id="menuOculto" class="menuOculto">
+    <a href="" class="btnFechar" onclick="fecharNav()">&times;</a>
+    <a href="https://mobi.fiat.com.br/">FIAT MOBI</a>
+    <a href="https://500e.fiat.com.br/monte.html?gad_source=1&gclid=Cj0KCQjw0Oq2BhCCARIsAA5hubXYPQbWIW5oAohLF8O8d-KfWI7_Gn379TlZ2jYqwVkTrjPx7EOv0DcaAmG7EALw_wcB&gclsrc=aw.ds#versao">FIAT 500E</a>
+    <a href="https://pulse.fiat.com.br/?gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8mFXUJWrxjEBGZUNfFCopD0PVkEbuXYktE5ZGrqttNfY7CyCuHn_LxoChWEQAvD_BwE&gclsrc=aw.ds">FIAT PULSE</a>
+    <a href="https://fastback.fiat.com.br">FIAT FASTBACK</a>
+    <a href="https://cronos.fiat.com.br/">FIAT CRONOS</a>
+</aside>
+
+<section id="principal" class="btnAbrir">
+    <span style="font-size: 30px;cursor: pointer;" onclick="abrirNav()">&#9776;
+        
+    </span>
+</section>
 
     <div class="button-container">
         <button class="car-button" onclick="showCar('carro1')">FIAT MOBI </button>
@@ -51,11 +54,21 @@ href="https://mobi.fiat.com.br/monte.html?gad_source=1&gclid=CjwKCAjwreW2BhBhEiw
     </div>
 
     <div class="car-display">
+        <a href="https://mobi.fiat.com.br/">
         <img id="carro1" src="imagens/mobi.png" alt="Carro 1" class="car-image" style="display:none;">
+    </a>
+    <a href="https://500e.fiat.com.br/monte.html?gad_source=1&gclid=Cj0KCQjw0Oq2BhCCARIsAA5hubXYPQbWIW5oAohLF8O8d-KfWI7_Gn379TlZ2jYqwVkTrjPx7EOv0DcaAmG7EALw_wcB&gclsrc=aw.ds#versao">
         <img id="carro2" src="imagens/500e.png" alt="Carro 2" class="car-image" style="display:none;">
+    </a>
+    <a href="https://pulse.fiat.com.br/?gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8mFXUJWrxjEBGZUNfFCopD0PVkEbuXYktE5ZGrqttNfY7CyCuHn_LxoChWEQAvD_BwE&gclsrc=aw.ds">
         <img id="carro3" src="imagens/PULSE.png" alt="Carro 3" class="car-image" style="display:none;">
+    </a>
+    <a href="https://fastback.fiat.com.br/">
         <img id="carro4" src="imagens/fastback.png" alt="Carro 4" class="car-image" style="display:none;">
+    </a>
+    <a href="https://cronos.fiat.com.br/">
         <img id="carro5" src="imagens/cronos.png" alt="Carro 5" class="car-image" style="display:none;">
+    </a>
 
         <!-- Adicione mais imagens conforme necessário -->
     </div>
@@ -84,8 +97,9 @@ href="https://mobi.fiat.com.br/monte.html?gad_source=1&gclid=CjwKCAjwreW2BhBhEiw
      href="https://www.linkedin.com/in/vin%C3%ADcius-m-4988132a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app1">
      <img class="linkedin" src="imagens/linkedin.png" alt="">
 </a>
-                        
+<a href="https://www.fiat.com.br/?gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8pi1QP5U4EOJqTJOnf7DjVRGVivRM8pH0uAUDPI_-TjLkHwwLurUYxoCfykQAvD_BwE&gclsrc=aw.ds">        
  <img class="logos" src="imagens/fiat.png" alt="">
+</a>
 
     <script src="script.js"></script>
 </body>
