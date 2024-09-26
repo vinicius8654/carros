@@ -172,12 +172,12 @@ height: 85%;
     padding: 8px 8px 8px 32px;
     text-decoration:none ;
     font-size: 25px;
-    color:#777;
+    color:white;
     display: block;
     transition:0.3s ;
 }
 .menuOculto a:hover{
-color:#fff;
+color:#ff0000;
 }
 .btnFechar{
     position: absolute;
@@ -185,6 +185,7 @@ color:#fff;
     right: 25px;
     font-size: 36px;
     margin-left:50px;
+    color: #ff0000;
 }
 #principal{
     padding: 16px;
